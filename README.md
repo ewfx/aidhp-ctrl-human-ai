@@ -28,8 +28,9 @@ An AI-powered dashboard that transforms financial services by offering:
 ## 🎥 Demo  
 ### 🖥️ Run Locally:  
 ```bash
-pip install -r requirements.txt  
-streamlit run app.py
+point your terminal to src folder
+src> pip install -r requirements.txt  
+src> streamlit run app.py
 ```
 ## How We Built It
 
@@ -73,10 +74,10 @@ Step 2 : Navigate to the project directory to AI-Driven-Hyper-Personilazation\co
 Step 3 : Run the following commands:
 
 ```bash
+Point your terminal to src folder
+src> pip install -r requirements.txt  
 
-pip install -r requirements.txt  
-
-streamlit run app.py
+src> streamlit run app.py
 
 #Run Tests
 python test-app.py
