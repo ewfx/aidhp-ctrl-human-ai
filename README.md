@@ -1,60 +1,97 @@
-# 🚀 Project Name
+# 🚀 AI-Driven Hyper-Personalization & Recommendations Dashboard  
 
-## 📌 Table of Contents
-- [Introduction](#introduction)
-- [Demo](#demo)
-- [Inspiration](#inspiration)
-- [What It Does](#what-it-does)
-- [How We Built It](#how-we-built-it)
-- [Challenges We Faced](#challenges-we-faced)
-- [How to Run](#how-to-run)
-- [Tech Stack](#tech-stack)
-- [Team](#team)
+## 📌 Table of Contents  
+- [Introduction](#-introduction)  
+- [Demo](#-demo)  
+- [What It Does](#-what-it-does)  
+- [How We Built It](#-how-we-built-it)  
+- [Challenges We Faced](#-challenges-we-faced)  
+- [How to Run](#-how-to-run)  
+- [Tech Stack](#-tech-stack)  
+- [Team](#-team)  
 
 ---
 
-## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+## 🎯 Introduction  
+An AI-powered dashboard that transforms financial services by offering:  
+✅ **Hyper-personalized recommendations** (credit cards, loans, investments)  
+✅ **Predictive business insights** (customer segmentation, churn prediction)  
+✅ **Multi-modal search** (text + image-based product recommendations)  
 
-## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
+### 🌟 Addressing 3 Industry Challenges:  
+❌ **Generic financial advice** → ✅ AI-driven personalized recommendations  
+❌ **Manual customer segmentation** → ✅ Automated insights & clustering  
+❌ **Lack of predictive analytics** → ✅ AI-powered early warnings  
 
-![Screenshot 1](link-to-image)
+---
 
-## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+## 🎥 Demo  
+### 🖥️ Run Locally:  
+```bash
+pip install -r requirements.txt  
+streamlit run app.py
+```
+## How We Built It
 
-## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+    A[CSV/Image Upload] --> B(Pandas Data Pipeline)  
+    B --> C{AI Models}  
+    C --> D[Sentiment Analysis]  
+    C --> E[CLIP Visual Search]  
+    C --> F[Churn Prediction]  
+    C --> G[K-Means Clustering]  
+    F --> H[Streamlit Dashboard]  
+## What It Does
+###1️⃣ Personal Recommendations
+Suggests credit cards, loans, investments based on:
 
-## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+Income & credit profiling
 
-## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+Risk appetite analysis (⭐⭐⭐⭐⭐ Scoring)
 
-## 🏃 How to Run
-1. Clone the repository  
-   ```sh
-   git clone https://github.com/your-repo.git
-   ```
-2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
-3. Run the project  
-   ```sh
-   npm start  # or python app.py
-   ```
+###2️⃣ Business Intelligence
+Customer Segmentation: Identify loyal customers & at-risk groups
 
-## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+Churn Prediction: AI-powered 6-month early warning system
 
-## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+###3️⃣ Multi-Modal Search
+CLIP-powered visual product search
+
+Find products using text + image querie
+
+## Challenges We Faced
+Challenge	Solution
+Mixed data types in CSVs	Auto-conversion with pd.to_numeric()
+Large CLIP model size	Optimized with ONNX runtime
+Real-time scoring optimization	Cached Sklearn pipelines
+
+## How to Run
+
+Step 1 : Download and install Python 3.x from official website
+
+Step 2 : Navigate to the project directory to AI-Driven-Hyper-Personilazation\code\src and Open a terminal or command prompt
+
+Step 3 : Run the following commands:
+
+```bash
+
+pip install -r requirements.txt  
+
+streamlit run app.py
+
+#Run Tests
+python test-app.py
+
+```
+## Tech Stack
+Component	Technology
+Frontend	Streamlit
+AI/ML	Transformers, Sklearn, PyTorch
+Data	Pandas, NumPy
+Deployment	Docker (Local), AWS EC2 (Prod)
+
+## Ctrl-Human-AI Team
+KRLX-25 - AI-Human Controlled System
+
+Krishna/Kiranmai - Wisdom & Strategy
+Rajesh/Ravi - Leadership & Resilience
+Laxman - Stability & Intelligence

@@ -1,0 +1,9 @@
+product_id,product_type,product_name,product_risk,min_credit_score,min_income,max_income,annual_fee,interest_rate,minimum_deposit,minimum_investment,term_length,description
+1,Credit Card,Platinum Rewards,Medium,700,50000,200000,95,18.99,0,0,N/A,"Premium credit card with exclusive rewards"
+2,Loan,Home Advantage,Low,680,60000,500000,0,6.5,10000,0,"5-30 years","Mortgage loan with competitive rates"
+3,Investment,Retirement Fund,Low,650,30000,1000000,0,0,5000,10000,"10+ years","Tax-advantaged retirement account"
+4,Investment,Hedge Fund,High,750,200000,10000000,0,0,0,100000,"3+ years","High-risk alternative investment"
+5,Credit Card,Student Starter,Low,600,10000,50000,0,22.99,0,0,N/A,"Credit builder for students"
+6,Loan,Auto Finance,Medium,650,25000,150000,0,8.5,0,0,"2-7 years","Vehicle financing program"
+7,Insurance,Term Life,Low,620,20000,500000,250,0,0,0,"10-30 years","Affordable life coverage"
+8,Investment,Index Fund,Medium,700,10000,500000,0,0,1000,1000,"1+ years","Diversified stock market fund"

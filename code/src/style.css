@@ -1,0 +1,152 @@
+# Create a style.css file in the same directory with this content:
+"""
+.header {
+    background: linear-gradient(45deg, #6e48aa, #9d50bb);
+    padding: 2rem;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header p {
+    margin: 0;
+    opacity: 0.8;
+}
+
+.section-header {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    border-left: 5px solid #6e48aa;
+}
+
+.section-header h2 {
+    margin: 0;
+    color: #6e48aa;
+}
+
+.sidebar-header {
+    background: linear-gradient(45deg, #6e48aa, #9d50bb);
+    padding: 1rem;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.sidebar-header h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.sidebar-footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 1.5rem;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #6e48aa;
+}
+
+.stButton>button {
+    background: linear-gradient(45deg, #6e48aa, #9d50bb);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+.stButton>button:hover {
+    background: linear-gradient(45deg, #9d50bb, #6e48aa);
+    color: white;
+}
+
+.stDownloadButton>button {
+    background: linear-gradient(45deg, #4CAF50, #2E7D32);
+    color: white;
+}
+
+.stDownloadButton>button:hover {
+    background: linear-gradient(45deg, #2E7D32, #4CAF50);
+}
+/* Financial Recommendations Specific Styles */
+.customer-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #6e48aa;
+}
+
+.product-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: 1rem;
+    border-top: 3px solid #9d50bb;
+    height: 100%;
+}
+
+.product-card h4 {
+    margin: 0 0 0.5rem 0;
+    color: #6e48aa;
+}
+
+.product-card p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+}
+
+.recommendation-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #9d50bb;
+}
+
+.recommendation-card h3 {
+    color: #9d50bb;
+    margin-top: 0;
+}
+
+.customer-profile-card {
+    background-color: #f0f7ff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Risk level indicators */
+[data-risk="Low"] {
+    color: #4CAF50;
+    font-weight: bold;
+}
+[data-risk="Medium"] {
+    color: #FFC107;
+    font-weight: bold;
+}
+[data-risk="High"] {
+    color: #F44336;
+    font-weight: bold;
+}
